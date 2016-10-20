@@ -1,0 +1,5 @@
+---
+applications:
+- name: phoenix_api_demo
+  buildpack: https://github.com/gogolok/cloudfoundry-buildpack-elixir
+  command: mix phoenix.server
